@@ -1,0 +1,198 @@
+
+body {
+    text-align: center;
+    color: black;
+    font-family: 'Unica One', cursive;
+    background: linear-gradient(270deg, #1bc13f, #f7f5f9, #e65050);
+    background-size: 600% 600%;
+    -webkit-animation: AnimationName 7s ease infinite;
+    -moz-animation: AnimationName 7s ease infinite;
+    animation: AnimationName 7s ease infinite;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Arvo:700);
+
+.plate {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.shadow {
+  color: #fff;
+  font-family: Arvo;
+  font-weight: bold;
+  text-shadow:
+    -3px -3px 0 #222,
+    3px -3px 0 #222,
+    -3px 3px 0 #222,
+    3px 3px 0 #222,
+    4px 4px 0 #fff,
+    5px 5px 0 #fff,
+    6px 6px 0 #fff,
+    7px 7px 0 #fff;
+  line-height: 0.8em;
+  letter-spacing: 0.1em;
+  transform: scaleY(0.7);
+  -webkit-transform: scaleY(0.7);
+  -moz-transform: scaleY(0.7);
+  margin:0;
+  text-align: center;
+}
+
+.text1 {
+  font-size: 120px;
+}
+.text2 {
+  font-size: 69px;
+}
+.text3 {
+  font-size: 120px;
+}
+
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+#name {
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size: 80px;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+a:any-link {
+	color: #fff;
+}
+
+a:hover {
+    font-size: 150%;
+}
+
+#tagLine {
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size: 40px;
+}
+
+#topMenu {
+    font-size: 30px;
+    font-family: 'Kelly Slab', cursive;
+    list-style: none;
+}
+
+
+#today {
+    border-style: ridge;
+    border-color: rgb(9, 71, 9);
+    border-width: 10px;
+    color: maroon;
+    font-family: 'Kelly Slab', cursive;
+}
+
+.sectionTitle {
+    font-size: 40px
+}
+
+#special {
+    font-size: 30px
+}
+
+.container {
+    position: relative;
+    width: 50%;
+    display: inline-block
+  }
+  
+  .image {
+    display: block;
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 65%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(221, 74, 94);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+#menu {
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-name: slidein;
+    }
+
+75% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
+    }
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%; 
+        }
+    75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+    }  
+    to {
+        margin-left: 0%;
+        width: 100%;
+        }
+    }
+
+
+  #subscribe {
+      text-align: left;
+  }
+
+  #visit {
+      text-align: left;
+  }
+
+  
+
