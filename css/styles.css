@@ -89,7 +89,12 @@ a:hover {
     font-size: 40px;
 }
 
-#topMenu {
+.guide {
+    border: 5px dotted white;
+    padding: 10px;
+    margin: 10px;    
+    border-radius: 20%;
+    display: inline;    
     font-size: 30px;
     font-family: 'Kelly Slab', cursive;
     list-style: none;
@@ -97,9 +102,6 @@ a:hover {
 
 
 #today {
-    border-style: ridge;
-    border-color: rgb(9, 71, 9);
-    border-width: 10px;
     color: maroon;
     font-family: 'Kelly Slab', cursive;
 }
@@ -159,7 +161,7 @@ a:hover {
 
 #menu {
     animation-duration: 5s;
-    animation-delay: 5s;
+    animation-delay: 6s;
     animation-name: slidein;
     }
 
@@ -193,6 +195,4 @@ a:hover {
   #visit {
       text-align: left;
   }
-
-  
 
