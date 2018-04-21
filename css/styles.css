@@ -139,7 +139,7 @@ a:hover {
     width: 65%;
     opacity: 0;
     transition: .5s ease;
-    background-color: rgb(221, 74, 94);
+    background-color: rgba(221, 74, 94, 0);
     margin-left: auto;
     margin-right: auto;
   }
@@ -149,8 +149,8 @@ a:hover {
   }
   
   .text {
-    color: white;
-    font-size: 70px;
+    color: black;
+    font-size: 100px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -161,9 +161,19 @@ a:hover {
 
 #menu {
     animation-duration: 5s;
-    animation-delay: 6s;
+    animation-delay: 8s;
     animation-name: slidein;
     }
+
+#menu {
+    background-image: url("/assets/150526103052-pizza-hut-natural-780x439.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menu:hover {
+    color: white;
+}
 
 75% {
     font-size: 300%;
